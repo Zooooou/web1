@@ -1,0 +1,23 @@
+body {
+    background-color: #333333;
+}
+h1 {
+  color: #333;
+  background-color: #CBE830;
+  font-weight: normal;
+}
+p {
+    background-color: #666666;
+    color: #ffffff;
+}
+.first_paragraph{
+    font-size: 30px; 
+    font-family: "Roboto Slab", "Montserrat", arial, sans-serif
+    border-left: 14px solid red;
+    border-bottom: 12px solid white;
+    font-weight: bold;
+    text-decoration:underline;
+    font-style: italic;
+    padding:30px;
+    margin: 60px;
+    }
