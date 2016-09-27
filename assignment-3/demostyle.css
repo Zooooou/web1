@@ -13,8 +13,8 @@ p {
 .first_paragraph{
     font-size: 30px; 
     font-family: "Roboto Slab", "Montserrat", arial, sans-serif
-    border-left: 14px solid red;
-    border-bottom: 12px solid white;
+    border-left: px solid red;
+    border-bottom: 11px solid white;
     font-weight: bold;
     text-decoration:underline;
     font-style: italic;

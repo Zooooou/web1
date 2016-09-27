@@ -1,0 +1,87 @@
+/*
+  General Styling
+*/
+ body{
+    font-family: arial, sans-serif;
+    font-weight:400;
+    background-color: #f1f1f1;
+    color: #333;
+    margin: 0;
+   }
+   a, a:visited{
+       text-decoration: none;
+       color:#d69e00;
+   }
+   a:hover {
+       color: #e4b532;
+   }
+   
+   /*
+   Hero
+   */
+   .hero{
+       background-color:#16445f;
+       text-align:center;
+       overflow:auto;
+       }
+       .hero-card{
+           border: 2px solid #fff;
+           color:#efefef;
+           padding:50px;
+           width:800px;
+           margin:100px auto 50px auto;
+           }
+       .hero-card-title{
+           font-family:georgia serif;
+           margin:0;
+           font-size:50px;
+       }
+      .hero-card-description{
+          font-family: georgia, serif;
+          font-size: 30px;
+          font-weight:300;
+          margin:20px 0;
+      }
+      a.hero-card-link{
+          text-decoration:none;
+          color:#efefef;
+          font-size:18px;
+          border: 2px solid #efefef;
+          padding:5px 20px;
+      }
+      a.hero-card-link:hover{
+          color:#D69E00;
+          border-color:#D69E00;
+      }
+      
+      /*Navigation
+      */
+      .main-nav{
+          margin:20px auto;
+      }
+      a.nav-link{
+          color:#fff;
+          text-decoration:none;
+          font-size:20px;
+          margin:10px 5x;
+          padding:10px 15px;
+          border:2px solid rgba(255, 255, 255, 0);
+      }
+      a.nav-link
+      
+       /*
+       Footer*/
+       footer{
+           background-color:#333;
+           color:#999;
+           padding:20px;
+           text-align:center;
+       }
+       footer-link{
+           color:AB810A;
+           text-decoration:none;
+       }
+       .footer-link:hover{
+           color:D69E00;
+           text-decoration:underline;
+       }
