@@ -63,11 +63,19 @@
           color:#fff;
           text-decoration:none;
           font-size:20px;
-          margin:10px 5x;
+          margin:10px 5px;
           padding:10px 15px;
           border:2px solid rgba(255, 255, 255, 0);
       }
-      a.nav-link
+      a.nav-link:hover{
+          color:#FFD86B;
+      }
+      
+      /* Main-content*/
+      main-content{
+          padding:20px;
+          text-align:center;
+      }
       
        /*
        Footer*/
