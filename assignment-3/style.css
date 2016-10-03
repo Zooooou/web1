@@ -144,3 +144,13 @@
             color:#666;
             margin-left:20px;
             margin-bottom:20px;}
+            
+            /*search*/
+            .search-placeholder{
+                width:600px;
+                height:400px;
+                background-color:#ddd;
+                margin-left: 100px;auto;
+                padding:20px;
+                text-align: center
+            }
