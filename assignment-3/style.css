@@ -126,3 +126,21 @@
             width:860px;
             text-align:center;
         }
+        /*Coffee*/
+        .coffee-quote{
+            font-size:5px;
+            color:#16445f;
+        }
+        .menu{
+            border:20px solid:#ddd;
+            text-align:left;
+            padding:20px;
+        }
+        .dt{
+            font-size:20px;
+            font-weight:bold;
+            margin-bottom:5px;}
+        .dd{
+            color:#666;
+            margin-left:20px;
+            margin-bottom:20px;}
