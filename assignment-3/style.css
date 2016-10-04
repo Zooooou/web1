@@ -148,10 +148,10 @@
             
             /*search*/
             .search-placeholder{
-                width:450px;
-                height:300px;
+                width:600px;
+                height:400px;
                 background-color:#ddd;
-                margin-left: 200px;auto;
+                margin-left:auto;
                 padding:20px;
                 text-align: center
             }
