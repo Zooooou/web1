@@ -98,7 +98,7 @@
        .card{
            background-color:#fff;
            box-shadow:2px 2px 3px rgba(0.0.00.2);
-           width: scalc(33%-20px);
+           width: calc(33% - 20px);
            min-height: 310px;
            float:left;
            text-decoration: none;
@@ -120,7 +120,7 @@
        }
        .card-description{
            padding:0 20px;
-           margn:0 0 20px 0;
+           margin:0 0 20px 0;
            color:#999;
        }
        
@@ -185,7 +185,7 @@
         }
         /*images*/
         #card-img{
-            width: calc(10%);
+            width: calc(50%);
         }
 
         
