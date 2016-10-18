@@ -1,24 +1,11 @@
-body, html {
-  margin: 0;
-  font-family: arial, sans-serif;
-  text-align: center;
+.body {
+  background-color: #333;
 }
-h1 {
-  background-color: #d44413;
-  color: #fff;
-  margin: 0;
-  font-weight: normal;
-  padding: 10px 20px;
-}
-h2 {
-  border-top: 1px solid #aaa;
-  padding-top: 20px;
-  margin: 50px 20px 0px 20px;
-}
-
-img {
-  margin: 20px;
-  border: 1px solid #ddd;
-  min-height: 400px;
-  min-width: 400px;
+.hero{
+  background-color: #2b4470;
+  padding:200px 200px 200px 200px;
+  background-image: url("blueberries.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
 }

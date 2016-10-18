@@ -1,0 +1,247 @@
+.body {
+  background-color: #333;
+}
+.hero{
+  background-color: #e8bb4a;
+  padding:200px 200px 200px 200px;
+  background-image: url("blueberries.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment:fixed;
+}
+.coffee{
+  background-color: #e8bb4a;
+  padding:200px 200px 200px 200px;
+  background-image: url("coffee.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment:fixed;
+  
+}
+h1 {
+  color:#ffffff;
+  text-align:center;
+}
+
+.spacer{
+  height:2000px;
+}
+.card{
+  background-color:#ffffff;
+  margin:20px 2% ;
+  width:33%;
+  display: inline-block;
+}
+#square{
+  margin-top:150px;
+  margin-left:auto;
+  margin-right:auto;
+  width:400px;
+  height:400px;
+  background-color:yellow;
+}
+
+
+/*
+  General Styling
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Cormorant:300|Roboto:100i,300,400,400i,700';
+ 
+ body{
+    font-family: roboto, arial, sans-serif;
+    font-weight:400;
+    background-color: #f1f1f1;
+    color: #333;
+    margin: 0;
+   }
+   a, a:visited{
+       text-decoration: none;
+       color:#d69e00;
+   }
+   a:hover {
+       color: #e4b532;
+   }
+   
+ 
+      /*Navigation
+      */
+      .main-nav{
+          
+              max-width:960px;
+              margin:20px auto;
+              text-align: right;
+          }
+        
+    
+      a.nav-link{
+          box-sizing:border-box;
+          color:#fff;
+          text-decoration:none;
+          height:40px;
+          line-height:38px;
+          font-size:20px;
+          font-family:Cormorant, cursive;
+          display:inline-block;
+          margin:10px 5px;
+          padding:0px 15px;
+          border-radius: 20px;
+          border:2px solid rgba(255, 255, 255, 0);
+          transition:all 0.2s ease;
+      }
+      a.nav-link:hover{
+          color:#FFD86B;
+          border-clolr:#ffd86b;
+          background-color: rgba(0,0,0,0.4)
+      }
+      #logo{
+          float:left;
+          margin-right:100px;
+          width:0;
+          height:0;
+          color:rgba(255,255,255,0);
+          padding:60px 160px 0 0;
+          background-image: url('images/logo.png');
+          background-size:120px 60px;
+          background-position: center;
+          background-repeat: no-repeat;
+          border-radius: 3px;
+          transition: all 0.2s ease;
+         
+      }
+      #logo:hover{
+          background-color: rgba(0.0.0.4)
+      }
+      /* Main-content*/
+      main-content{
+          margin:50px auto;
+          width:960px;}
+          .clear{
+          clear:both;}
+          
+     
+      
+       /*
+       Footer*/
+       footer{
+           background-color:#333;
+           color:#999;
+           padding:20px;
+           text-align:center;
+       }
+       footer-link{
+           color:AB810A;
+           text-decoration:none;
+       }
+       .footer-link:hover{
+           color:D69E00;
+           text-decoration:underline;
+       }
+       
+       /*Home*/
+       .card{
+           background-color:#fff;
+           box-shadow:2px 2px 3px rgba(0.0.00.2);
+           width: calc(33% - 20px);
+           min-height: 310px;
+           float:left;
+           text-decoration: none;
+           color:#333;
+           transition: all .2s ease;
+           margin:10px; 
+         
+       }
+       .card:hover{
+           transform:scale(1.025);
+           box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+       }
+       .card-title{
+           padding:0px 20px;
+           margin: 20px 0 10px 0;
+           font-family: Cormorant, cursive;
+           font-size:24px;
+         
+       }
+       .card-description{
+           padding:0 20px;
+           margin:0 0 20px 0;
+           color:#999;
+       }
+       
+       /*About*/
+       .about-photo{
+           width:200px;
+           height:200px;
+           border-radius: 100px;
+           box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+       }
+       .about-list-container{
+           border-left:5px solid #d69e00;
+           padding:20px 50px;
+           margin-bottom: 50px;
+        }
+        .anout-list-title{
+            font-size:30px;
+            font-weight: 400;
+            color:#d69e00;
+        }
+        .about-list{
+            font-size:24px;
+        }
+        .about-list li{
+            margin:lem auto;
+        }
+        
+        /*Hero*/
+        .hero{
+            background-color: #222;
+            background-repeat:no-repeat;
+            background-position:center center;
+            background-size:cover;
+            overflow:auto;
+        }
+        .hero-card{
+          box-sizing:boder-box;
+          background-color:rgba(0,0,0,0.73);
+          color:#efefef;
+          margin:110px auto 60px auto;
+          padding:50px;
+          max-width:960px;
+          text-align:center;
+          box-shadow: 2px 1px 4px rgba(0,0,0,0.3)
+        }
+        .hero-card-title{
+            font-family:Cormorant, cursive;
+            margin:0;
+            font-size: 50px;
+        }
+        .hero-card-description{
+            font-family: Cormorant, cursive;
+            font-size: 30px;
+            font-weight: 300;
+            margin:20px 0;
+        }
+        .hero-card-link{
+            text-decoration:none;
+            color:#efefef;
+            font-size: 18px;
+            border:2px solid #efefef;
+            border-radius: 18px;
+            padding:5px 20px;
+            display:inline-block;
+            transition: all 0.2s ease;
+        }
+        a.hero-card-link:hover{
+            color:#D69E00;
+            border-color: #D69E00;
+        }
+        /*images*/
+        #card-img{
+            width: calc(50%);
+        }
+        
+        
+
+        
