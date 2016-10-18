@@ -2,7 +2,7 @@
   General Styling
 */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Cormorant:300|Roboto:100i,300,400,400i,700');
 
  body{
     font-family: roboto, arial, sans-serif;
@@ -23,7 +23,7 @@
       /*Navigation
       */
       .main-nav{
-          .main-nav{
+          
               max-width:960px;
               margin:20px auto;
               text-align: right;
@@ -41,8 +41,8 @@
           display:inline-block;
           margin:10px 5px;
           padding:0px 15px;
-          border-radius: 20px
-          border:2px solid rgba(255, 255, 255, 0);
+          border-radius: 20px;
+          border:2px solid rgba(255,255,255,0);
           transition:all 0.2s ease;
       }
       a.nav-link:hover{
@@ -75,7 +75,7 @@
           .clear{
           clear:both;}
           
-      }
+      
       
        /*
        Footer*/
@@ -110,9 +110,46 @@
        }
        
        /*About*/
+       .about-photo{
        .about-list-container{
            border:4px solid #ddd;
            text-align:left;
            padding:20px;
            margin:20px;
+        }
+        
+        /*Hero*/
+        .hero{
+            background-color: #16445f;
+            text-align:center;
+            overflow:auto;
+        }
+        .hero-card{
+            border:2px solid #fff;
+            color:#efefef;
+            padding:50px;
+            width:800px;
+            margin:100px auto 50px auto;
+        }
+        .hero-card-title{
+            font-family:georgia, serif;
+            margin:0;
+            font-size: 50px;
+        }
+        .hero-card-description{
+            font-family: georgia, serif;
+            font-size: 30px;
+            font-weight: 300;
+            margin:20px 0;
+        }
+        a.hero-card-link{
+            text-decoration:none;
+            color:#efefef;
+            font-size: 18px;
+            border:2px solid #efefef;
+            padding:5px 20px;
+        }
+        a.hero-card-link:hover{
+            color:#D69E00;
+            border-color: #D69E00;
         }
