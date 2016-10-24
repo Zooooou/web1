@@ -2,17 +2,22 @@
   General Styling
 */
 
-@import 'https://fonts.googleapis.com/css?family=Cormorant:300|Roboto:100i,300,400,400i,700';
+@import url('https://fonts.googleapis.com/css?family=Cormorant:300|Roboto:100i,300,400,400i,700');
  
 .body{
-    background-image:url("coffee.jpg");
-    font-family: Roboto, arial, sans-serif;
+    font-family: roboto, arial, sans-serif;
     font-weight:400;
     background-color: #f1f1f1;
     color: #333;
     margin: 0;
-    
-   }
+    }
+    a, a:visited{
+        text-decoration:none;
+        color:#d69e00;
+    }
+    a:hover{
+        color:#e4b532;
+    }
     
    
  
@@ -63,14 +68,17 @@
           background-color: rgba(0.0.0.4)
       }
 /* main-content*/      
-      .main-content{
+         .main-content{
           margin:50px auto;
-          width:960px;}
+          width:960px;
+          
+         }
           .clear{
           clear:both;}
           
  /*
  Footer*/
+        
        .footer{
            background-color:#333;
            color:#999;
@@ -140,22 +148,26 @@
         }
         
 /*Hero*/
-        .hero{
+        
+        #hero{
+            background-image:url("coffee.jpg");
             background-color: #222;
             background-repeat:no-repeat;
             background-position:center center;
             background-size:cover;
             overflow:auto;
         }
+
         .hero-card{
             box-sizing: border-box；
-            background-color rgba(0,0,0,0.73);
+            background-color:rgba(0,0,0,0.73);
             color:#efefef;
             margin:110px auto 60px auto;
             padding:50px;
             max-width: 960px;
             text-align:center;
             box-shadow: 2px 1px 4px rgba(0,0,0,0.3);
+            
         }
         .hero-card-title{
             font-family:Cormorant, cursive;
@@ -216,4 +228,59 @@
  .menu label{
      text-align: left;
  }
+ 
+ 
+ #hero-2{
+            background-image:url("sky.jpg");
+            background-color: #222;
+            background-repeat:no-repeat;
+            background-position:center center;
+            background-size:cover;
+            overflow:auto;}
+            
+   .search-form{
+    background-color:#ffffff;
+    box-shadow:1px 2px 2px rgb(0,0,0,0.1);
+    padding:40px;
+     }
+    .label{
+    margin-right:10px;}
+    .input{
+        border:1px solid #ddd;
+        height:30px;
+        width:630px;
+        font-size:14px;
+        padding:0 10px;
+    }
+    .buttom{
+        background-color:#3c8bce;
+        height:32px;
+        margin-left:10px;
+        padding:0.2px;
+        border:0;
+        color:#fff;
+        font-size:14px;
+        border-radius:3px;
+    }
 
+ #hero-3{
+            background-image:url("coast.jpg");
+            background-color: #222;
+            background-repeat:no-repeat;
+            background-position:center center;
+            background-size:cover;
+            overflow:auto;}
+            
+    .assignment-list dt{
+        margin-top:20px;
+    }
+    .assignment-list a {
+        color:#3c8bce;
+        font-size:18px;
+    }
+    .assignment-list a:hover{
+        color:#115690;
+    }
+    .assignment-list dd{
+        margin-left:0;
+    }
