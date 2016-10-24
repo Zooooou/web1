@@ -1,75 +1,23 @@
-.body {
-  background-color: #333;
-}
-.hero{
-  background-color: #e8bb4a;
-  padding:200px 200px 200px 200px;
-  background-image: url("blueberries.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-attachment:fixed;
-}
-.coffee{
-  background-color: #e8bb4a;
-  padding:200px 200px 200px 200px;
-  background-image: url("coffee.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-attachment:fixed;
-  
-}
-h1 {
-  color:#ffffff;
-  text-align:center;
-}
-
-.spacer{
-  height:2000px;
-}
-.card{
-  background-color:#ffffff;
-  margin:20px 2% ;
-  width:33%;
-  display: inline-block;
-}
-#square{
-  margin-top:150px;
-  margin-left:auto;
-  margin-right:auto;
-  width:400px;
-  height:400px;
-  background-color:yellow;
-}
-
-
 /*
   General Styling
 */
 
 @import 'https://fonts.googleapis.com/css?family=Cormorant:300|Roboto:100i,300,400,400i,700';
  
- body{
-    font-family: roboto, arial, sans-serif;
+.body{
+    background-image:url("coffee.jpg");
+    font-family: Roboto, arial, sans-serif;
     font-weight:400;
     background-color: #f1f1f1;
     color: #333;
     margin: 0;
+    
    }
-   a, a:visited{
-       text-decoration: none;
-       color:#d69e00;
-   }
-   a:hover {
-       color: #e4b532;
-   }
+    
    
  
-      /*Navigation
-      */
+/*Navigation*/
       .main-nav{
-          
               max-width:960px;
               margin:20px auto;
               text-align: right;
@@ -114,24 +62,22 @@ h1 {
       #logo:hover{
           background-color: rgba(0.0.0.4)
       }
-      /* Main-content*/
-      main-content{
+/* main-content*/      
+      .main-content{
           margin:50px auto;
           width:960px;}
           .clear{
           clear:both;}
           
-     
-      
-       /*
-       Footer*/
-       footer{
+ /*
+ Footer*/
+       .footer{
            background-color:#333;
            color:#999;
            padding:20px;
            text-align:center;
        }
-       footer-link{
+       .footer-link{
            color:AB810A;
            text-decoration:none;
        }
@@ -139,8 +85,7 @@ h1 {
            color:D69E00;
            text-decoration:underline;
        }
-       
-       /*Home*/
+ /*Home*/
        .card{
            background-color:#fff;
            box-shadow:2px 2px 3px rgba(0.0.00.2);
@@ -170,7 +115,7 @@ h1 {
            color:#999;
        }
        
-       /*About*/
+/*About*/
        .about-photo{
            width:200px;
            height:200px;
@@ -194,7 +139,7 @@ h1 {
             margin:lem auto;
         }
         
-        /*Hero*/
+/*Hero*/
         .hero{
             background-color: #222;
             background-repeat:no-repeat;
@@ -203,14 +148,14 @@ h1 {
             overflow:auto;
         }
         .hero-card{
-          box-sizing:boder-box;
-          background-color:rgba(0,0,0,0.73);
-          color:#efefef;
-          margin:110px auto 60px auto;
-          padding:50px;
-          max-width:960px;
-          text-align:center;
-          box-shadow: 2px 1px 4px rgba(0,0,0,0.3)
+            box-sizing: border-box；
+            background-color rgba(0,0,0,0.73);
+            color:#efefef;
+            margin:110px auto 60px auto;
+            padding:50px;
+            max-width: 960px;
+            text-align:center;
+            box-shadow: 2px 1px 4px rgba(0,0,0,0.3);
         }
         .hero-card-title{
             font-family:Cormorant, cursive;
@@ -228,20 +173,47 @@ h1 {
             color:#efefef;
             font-size: 18px;
             border:2px solid #efefef;
-            border-radius: 18px;
+            border-radius:18px;
             padding:5px 20px;
             display:inline-block;
             transition: all 0.2s ease;
         }
-        a.hero-card-link:hover{
+        .hero-card-link:hover{
             color:#D69E00;
             border-color: #D69E00;
         }
-        /*images*/
-        #card-img{
-            width: calc(50%);
-        }
         
-        
+    
+ .coffee-quote{
+    font-size:30px;
+    padding:20px;
+    margin:20px 15px;
+    border-left:5px solid #d69e00;
+}
+.cite{
+    display:block;
+    color:#666;
+    font-size:16px;
+}
 
-        
+.menu size{
+    min-width: 150px;
+    text-align: right;
+    font-size:14px;
+}
+.menu th{
+    padding:10px 10px;
+    vertical-align: top;
+    text-align: right;
+    font-size: 14px;
+}
+.menu dd{
+    margin-left:0;
+    color:#666;
+    font-style: italic;
+    font-size:14px;
+ }
+ .menu label{
+     text-align: left;
+ }
+

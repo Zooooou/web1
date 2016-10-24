@@ -69,7 +69,7 @@
           background-color: rgba(0.0.0.4)
       }
       /* Main-content*/
-      main-content{
+      .main-content{
           margin:50px auto;
           width:960px;}
           .clear{
